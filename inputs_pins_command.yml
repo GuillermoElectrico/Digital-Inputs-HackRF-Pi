@@ -1,0 +1,66 @@
+inputs:      
+    - name : Input 1 
+      pin : 7 #GPIO4
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : 'hackrf_tranfer -s 2000000 -f 433890000 -t downinput1 -a 1 -x 24'  
+      message1 : 'hackrf_tranfer -s 2000000 -f 433890000 -t upinput1 -a 1 -x 24'  
+    - name : Input 2 
+      pin : 11 #GPIO17
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : 'hackrf_tranfer -s 2000000 -f 433890000 -t downinput2 -a 1 -x 24'  
+      message1 : 'hackrf_tranfer -s 2000000 -f 433890000 -t upinput2 -a 1 -x 24' 
+    - name : Input 3 
+      pin : 13 #GPIO27
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : 'hackrf_tranfer -s 2000000 -f 433890000 -t downinput3 -a 1 -x 24'  
+      message1 : 'hackrf_tranfer -s 2000000 -f 433890000 -t upinput3 -a 1 -x 24' 
+    - name : Input 4  
+      pin : 15 #GPIO22
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : 'hackrf_tranfer -s 2000000 -f 433890000 -t downinput4 -a 1 -x 24'  
+      message1 : 'hackrf_tranfer -s 2000000 -f 433890000 -t upinput4 -a 1 -x 24' 
+    - name : Input 5 
+      pin : 16 #GPIO23
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : 'hackrf_tranfer -s 2000000 -f 433890000 -t downinput5 -a 1 -x 24'  
+      message1 : 'hackrf_tranfer -s 2000000 -f 433890000 -t upinput5 -a 1 -x 24' 
+    - name : Input 6 
+      pin : 18 #GPIO24
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : ''  # leave blank if not use or delete this inputs lines
+      message1 : '' 
+    - name : Input 7 
+      pin : 22 #GPIO25
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : ''  
+      message1 : '' 
+    - name : Input 8 
+      pin : 29 #GPIO5
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : ''  
+      message1 : '' 
+    - name : Input 9 
+      pin : 32 #GPIO12
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : ''  
+      message1 : '' 
+    - name : Input 10 
+      pin : 31 #GPIO6
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : ''  
+      message1 : '' 
+    - name : Input 11 
+      pin : 38 #GPIO20
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : ''  
+      message1 : '' 
+    - name : Input 12 
+      pin : 37 #GPIO26
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : ''  
+      message1 : '' 
+    - name : Input 13 
+      pin : 40 #GPIO21
+      normally : 0 # 0 = normally open, 1 = normally close
+      message0 : ''  
+      message1 : '' 
